@@ -142,7 +142,7 @@ const ErrorWrapper = styled.div`
 
 function Work() {
     const [works, workName] = useLoaderData();
-    const work = works.find((w) => w.title === workName);
+    const work = works.find((w) => w.urlName === workName);
 
     return work ? (
         <Section>
