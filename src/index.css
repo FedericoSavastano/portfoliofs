@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+#root {
+    margin: 0 auto;
+    padding: 0;
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+
+    &::-webkit-scrollbar {
+        color: blue;
+        width: 10px;
+    }
+
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 255, 238, 1) transparent;
+
+    /* width */
+    &::-webkit-scrollbar {
+        width: 10px;
+        color: transparent;
+        background-color: #4a0f4a;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: rgba(0, 255, 238, 1);
+        border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: rgb(5 182 170);
+    }
+}
