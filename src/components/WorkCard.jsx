@@ -109,13 +109,13 @@ const WorkCard = ({ work }) => {
         <Card>
             <CardTitle>
                 {' '}
-                <LinkTo href={`${window.location.href}${work.title}`}>
+                <LinkTo href={`${window.location.href}${work.urlName}`}>
                     {' '}
                     {work.title}
                 </LinkTo>{' '}
             </CardTitle>
             <CardImgWrapper>
-                <LinkTo href={`${window.location.href}${work.title}`}>
+                <LinkTo href={`${window.location.href}${work.urlName}`}>
                     <CardImg src={work.screenshot}></CardImg>
                 </LinkTo>{' '}
             </CardImgWrapper>
@@ -130,7 +130,7 @@ const WorkCard = ({ work }) => {
 
             <Footer>
                 <FooterRow>
-                    <FooterLink href={`${window.location.href}${work.title}`}>
+                    <FooterLink href={`${window.location.href}${work.urlName}`}>
                         {texts.workButtonFullProject}
                     </FooterLink>
                 </FooterRow>

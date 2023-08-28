@@ -3,6 +3,7 @@ export function works() {
         {
             id: 1,
             title: 'Job1',
+            urlName: 'job1',
             description:
                 'This is job 1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum sequi, est nemo eveniet incidunt, commodi sed optio dolores id eum molestias perferendis exercitationem?',
 
@@ -16,6 +17,7 @@ export function works() {
         {
             id: 2,
             title: 'Job 42',
+            urlName: 'job42',
             description:
                 'This is job 42 according to the hitchhicker´s guide to the galaxy lorem consectetur adipisicing elit. Illum sequi, est nemo eveniet incidunt, commodi sed optio dolores id eum molestias perferendis exercitation',
 
@@ -29,6 +31,7 @@ export function works() {
         {
             id: 3,
             title: 'Job3',
+            urlName: 'job3',
             description:
                 'This is job 3 consectetur adipisicing elit. Illum sequi, est nemo eveniet incidunt, commodi sed optio dolores id eum molestias perferendis exercitation',
             tech: ['React', 'React router dom'],
@@ -41,6 +44,7 @@ export function works() {
         {
             id: 4,
             title: 'Job4',
+            urlName: 'job4',
             description:
                 'This is job 4 consectetur adipisicing elit. Illum sequi, est nemo eveniet incidunt, commodi sed optio dolores id eum molestias perferendis exercitation',
             tech: ['JavaScript', 'CSS', 'HTML', 'JavaScript1', 'CSS1', 'HTML1'],
