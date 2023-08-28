@@ -15,9 +15,9 @@ export function works() {
         },
         {
             id: 2,
-            title: 'Job2',
+            title: 'Job 42',
             description:
-                'This is job 2 lorem consectetur adipisicing elit. Illum sequi, est nemo eveniet incidunt, commodi sed optio dolores id eum molestias perferendis exercitation',
+                'This is job 42 according to the hitchhicker´s guide to the galaxy lorem consectetur adipisicing elit. Illum sequi, est nemo eveniet incidunt, commodi sed optio dolores id eum molestias perferendis exercitation',
 
             tech: ['React', 'Styled-Components', 'Tailwind'],
             liveDemo: 'https://example.com/demo1',
