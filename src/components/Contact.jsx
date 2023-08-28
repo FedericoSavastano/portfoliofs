@@ -134,15 +134,14 @@ const Right = styled.div`
     @media only screen and (max-width: 1024px) {
         flex: 1;
         align-items: center;
-        width: 80%;
-        max-width: unset;
     }
 
     @media only screen and (max-width: 768px) {
         flex: 1;
         align-items: center;
-        width: 100%;
-        max-width: unset;
+        width: 80%;
+        height: fit-content;
+        max-width: 80vw;
     }
 `;
 
@@ -202,7 +201,7 @@ function Contact() {
     const [mailForm, setMailForm] = useState('');
     const [mailMessage, setMailMessage] = useState('');
 
-    const [scale, setScale] = useState(window.innerWidth > 900 ? 1.9 : 1.5);
+    const [scale, setScale] = useState(window.innerWidth > 900 ? 1.9 : 1);
 
     const ref = useRef();
     const handleSubmit = (e) => {
