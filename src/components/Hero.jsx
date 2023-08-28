@@ -82,7 +82,7 @@ const Right = styled.div`
     @media only screen and (max-width: 768px) {
         flex: 1;
         align-items: center;
-        width: 100%;
+        width: 80%;
     }
 `;
 
