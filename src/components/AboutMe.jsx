@@ -9,6 +9,7 @@ const Section = styled.div`
     margin: 5%;
     display: flex;
     flex-direction: column;
+    scroll-behaviour: smooth;
 
     @media only screen and (max-width: 768px) {
         margin: 20% 5%;

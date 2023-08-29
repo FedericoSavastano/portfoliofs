@@ -8,6 +8,7 @@ const WorksContainer = styled.div`
     width: 100%;
     gap: 1%;
     justify-content: center;
+    scroll-behaviour: smooth;
 `;
 
 const Section = styled.div`
