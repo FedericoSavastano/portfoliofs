@@ -315,7 +315,7 @@ function Contact() {
                     </Buttons>
                 </Left>
                 <Right>
-                    <Canvas>
+                    {/* <Canvas>
                         <Suspense fallback={<CanvasLoader />}>
                             <OrbitControls enableZoom={false} autoRotate />
                             <ambientLight intensity={1}></ambientLight>
@@ -329,7 +329,7 @@ function Contact() {
                             </Sphere>
                         </Suspense>
                         <Preload all />
-                    </Canvas>
+                    </Canvas> */}
                     <Img src='./3drobot.png'></Img>
                 </Right>
             </Container>

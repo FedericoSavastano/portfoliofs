@@ -231,7 +231,7 @@ function Hero() {
                 </Left>
 
                 <Right>
-                    <Canvas
+                    {/* <Canvas
                         camera={{ fov: 35, zoom: 1.3, near: 1, far: 1000 }}
                         style={{ zIndex: '1' }}>
                         <Suspense fallback={<CanvasLoader />}>
@@ -241,7 +241,7 @@ function Hero() {
                             <Robotgbc scale={scale} position={position} />
                         </Suspense>
                         <Preload all />
-                    </Canvas>
+                    </Canvas> */}
 
                     <Img src='./circle.png'></Img>
                 </Right>
