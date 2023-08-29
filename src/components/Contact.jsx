@@ -151,6 +151,13 @@ const Right = styled.div`
     }
 `;
 
+const CanvasWrapper = styled.div`
+    display: initial;
+    @media only screen and (max-width: 768px) {
+        display: none;
+    }
+`;
+
 const Img = styled.img`
     height: 40vh;
     object-fit: contain;
@@ -165,6 +172,37 @@ const Img = styled.img`
 
     @media only screen and (max-width: 768px) {
         height: 40vh;
+    }
+
+    @media only screen and (max-width: 1024px) {
+        height: 40vh;
+    }
+
+    @keyframes animate {
+        to {
+            transform: translateY(20px);
+        }
+    }
+`;
+
+const ImgCircle = styled.img`
+    display: none;
+    height: 40vh;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    filter: blur(54px);
+    opacity: 50%;
+    animation: animate 2s infinite ease alternate;
+
+    @media only screen and (max-width: 768px) {
+        width: 250px;
+        display: initial;
     }
 
     @media only screen and (max-width: 1024px) {
@@ -315,21 +353,25 @@ function Contact() {
                     </Buttons>
                 </Left>
                 <Right>
-                    {/* <Canvas>
-                        <Suspense fallback={<CanvasLoader />}>
-                            <OrbitControls enableZoom={false} autoRotate />
-                            <ambientLight intensity={1}></ambientLight>
-                            <directionalLight intensity={1}></directionalLight>
-                            <Sphere args={[1, 100, 200]} scale={scale}>
-                                <MeshDistortMaterial
-                                    color='rgba(0,255,238,1)'
-                                    attach='material'
-                                    distort={0.5}
-                                    speed={2}></MeshDistortMaterial>
-                            </Sphere>
-                        </Suspense>
-                        <Preload all />
-                    </Canvas> */}
+                    <CanvasWrapper>
+                        <Canvas>
+                            <Suspense fallback={<CanvasLoader />}>
+                                <OrbitControls enableZoom={false} autoRotate />
+                                <ambientLight intensity={1}></ambientLight>
+                                <directionalLight
+                                    intensity={1}></directionalLight>
+                                <Sphere args={[1, 100, 200]} scale={scale}>
+                                    <MeshDistortMaterial
+                                        color='rgba(0,255,238,1)'
+                                        attach='material'
+                                        distort={0.5}
+                                        speed={2}></MeshDistortMaterial>
+                                </Sphere>
+                            </Suspense>
+                            <Preload all />
+                        </Canvas>
+                    </CanvasWrapper>
+                    <ImgCircle src='./circle.png'></ImgCircle>
                     <Img src='./3drobot.png'></Img>
                 </Right>
             </Container>
