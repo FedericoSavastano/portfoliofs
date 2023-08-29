@@ -12,7 +12,7 @@ export async function loader({ params }) {
 }
 
 const Section = styled.div`
-    height: 100vh;
+    //height: 100vh;
     padding: 0% 1.5%;
 
     display: flex;
@@ -21,8 +21,6 @@ const Section = styled.div`
 
     @media only screen and (max-width: 768px) {
         min-height: fit-content;
-        // scroll-snap-align: start;
-
         align-items: center;
         justify-content: space-evenly;
     }

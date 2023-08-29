@@ -319,11 +319,10 @@ function Contact() {
                         <Suspense fallback={<CanvasLoader />}>
                             <OrbitControls enableZoom={false} autoRotate />
                             <ambientLight intensity={1}></ambientLight>
-                            <directionalLight
-                                position={[3, 5, 1]}></directionalLight>
+                            <directionalLight intensity={1}></directionalLight>
                             <Sphere args={[1, 100, 200]} scale={scale}>
                                 <MeshDistortMaterial
-                                    color='rgba(0,255,238,1);'
+                                    color='rgba(0,255,238,1)'
                                     attach='material'
                                     distort={0.5}
                                     speed={2}></MeshDistortMaterial>
