@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, Suspense } from 'react';
 import { styled } from 'styled-components';
 
-import { OrbitControls } from '@react-three/drei';
+import { OrbitControls, Preload } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
+
+import CanvasLoader from './Loader';
 
 import Robotgbc from './Robotgbc';
 import texts from '../data/texts';
@@ -232,10 +234,13 @@ function Hero() {
                     <Canvas
                         camera={{ fov: 35, zoom: 1.3, near: 1, far: 1000 }}
                         style={{ zIndex: '1' }}>
-                        <OrbitControls enableZoom={false} autoRotate />
-                        <ambientLight intensity={1} />
-                        <directionalLight intensity={1} />
-                        <Robotgbc scale={scale} position={position} />
+                        <Suspense fallback={<CanvasLoader />}>
+                            <OrbitControls enableZoom={false} autoRotate />
+                            <ambientLight intensity={1} />
+                            <directionalLight intensity={1} />
+                            <Robotgbc scale={scale} position={position} />
+                        </Suspense>
+                        <Preload all />
                     </Canvas>
 
                     <Img src='./circle.png'></Img>

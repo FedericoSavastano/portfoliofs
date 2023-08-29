@@ -1,11 +1,17 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, Suspense } from 'react';
 import styled from 'styled-components';
 import emailjs from '@emailjs/browser';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, MeshDistortMaterial, Sphere } from '@react-three/drei';
+import {
+    OrbitControls,
+    MeshDistortMaterial,
+    Sphere,
+    Preload,
+} from '@react-three/drei';
 import { Link } from 'react-router-dom';
 import texts from '../data/texts';
 import styles from '../styles/styles';
+import CanvasLoader from './Loader';
 
 const Section = styled.div`
     height: 100%;
@@ -310,17 +316,20 @@ function Contact() {
                 </Left>
                 <Right>
                     <Canvas>
-                        <OrbitControls enableZoom={false} autoRotate />
-                        <ambientLight intensity={1}></ambientLight>
-                        <directionalLight
-                            position={[3, 5, 1]}></directionalLight>
-                        <Sphere args={[1, 100, 200]} scale={scale}>
-                            <MeshDistortMaterial
-                                color='rgba(0,255,238,1);'
-                                attach='material'
-                                distort={0.5}
-                                speed={2}></MeshDistortMaterial>
-                        </Sphere>
+                        <Suspense fallback={<CanvasLoader />}>
+                            <OrbitControls enableZoom={false} autoRotate />
+                            <ambientLight intensity={1}></ambientLight>
+                            <directionalLight
+                                position={[3, 5, 1]}></directionalLight>
+                            <Sphere args={[1, 100, 200]} scale={scale}>
+                                <MeshDistortMaterial
+                                    color='rgba(0,255,238,1);'
+                                    attach='material'
+                                    distort={0.5}
+                                    speed={2}></MeshDistortMaterial>
+                            </Sphere>
+                        </Suspense>
+                        <Preload all />
                     </Canvas>
                     <Img src='./3drobot.png'></Img>
                 </Right>
