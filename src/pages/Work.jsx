@@ -21,7 +21,7 @@ const Section = styled.div`
 
     @media only screen and (max-width: 768px) {
         min-height: fit-content;
-        scroll-snap-align: start;
+        // scroll-snap-align: start;
 
         align-items: center;
         justify-content: space-evenly;
