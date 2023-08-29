@@ -132,7 +132,7 @@ function AboutMe() {
                     target='_blank'
                     rel='noopener noreferrer'>
                     <Button>
-                        <i className='fa-solid fa-download'></i>{' '}
+                        {/* <i className='fa-solid fa-download'></i>{' '} */}
                         {texts.downloadCVButtonLabel}
                     </Button>
                 </Link>

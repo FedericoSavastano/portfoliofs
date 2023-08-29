@@ -308,7 +308,7 @@ function Contact() {
                             rel='noopener noreferrer'
                             to={texts.LinkedInLink}>
                             <Button2>
-                                <i className='fa-brands fa-linkedin'></i>{' '}
+                                {/* <i className='fa-brands fa-linkedin'></i>{' '} */}
                                 {texts.LinkedIn}
                             </Button2>
                         </Link>

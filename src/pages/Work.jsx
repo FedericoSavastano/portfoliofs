@@ -12,7 +12,7 @@ export async function loader({ params }) {
 }
 
 const Section = styled.div`
-    //height: 100vh;
+    height: 100vh;
     padding: 0% 1.5%;
 
     display: flex;
@@ -160,7 +160,7 @@ function Work() {
                                 rel='noopener noreferrer'
                                 to={work.flowchart}>
                                 <Button2>
-                                    <i className='fa-solid fa-signs-post'></i>{' '}
+                                    {/* <i className='fa-solid fa-signs-post'></i>{' '} */}
                                     {texts.workButtonFlowChart}
                                 </Button2>
                             </Link>
@@ -170,7 +170,7 @@ function Work() {
                             rel='noopener noreferrer'
                             to={work.liveDemo}>
                             <Button2>
-                                <i className='fa-solid fa-laptop-code'></i>{' '}
+                                {/* <i className='fa-solid fa-laptop-code'></i>{' '} */}
                                 {texts.workButtonLiveDemo}
                             </Button2>
                         </Link>
@@ -180,7 +180,7 @@ function Work() {
                             rel='noopener noreferrer'
                             to={work.gitHub}>
                             <Button2>
-                                <i className='fa-brands fa-square-github'></i>{' '}
+                                {/* <i className='fa-brands fa-square-github'></i>{' '} */}
                                 {texts.workButtonGitHub}
                             </Button2>
                         </Link>
@@ -192,7 +192,7 @@ function Work() {
                 <Link to={'/'}>
                     {' '}
                     <Button>
-                        <i className='fa-solid fa-square-caret-left'></i>{' '}
+                        {/* <i className='fa-solid fa-square-caret-left'></i>{' '} */}
                         {texts.workButtonBack}
                     </Button>
                 </Link>
@@ -206,7 +206,7 @@ function Work() {
                     <Link to={'/'}>
                         {' '}
                         <Button>
-                            <i className='fa-solid fa-square-caret-left'></i>{' '}
+                            {/* <i className='fa-solid fa-square-caret-left'></i>{' '} */}
                             {texts.workButtonBack}
                         </Button>
                     </Link>
