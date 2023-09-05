@@ -36,6 +36,7 @@ const texts = {
         'JavaScript Developer I - Salesforce',
         'JavaScript Algorithms and Data Structures - FreeCodeCamp',
         'FrontEnd Development Libraries - FreeCodeCamp',
+        'Just Javascript Course - JustJavascript.com'
     ],
     downloadCVButtonLabel: 'Download CV',
     workButtonFlowChart: 'FlowChart',
