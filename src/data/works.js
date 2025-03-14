@@ -2,17 +2,25 @@ export function works() {
     return [
         {
             id: 1,
-            title: 'Job1',
-            urlName: 'job1',
+            title: 'Boys Pet Shop',
+            urlName: 'boyspetshop',
             description:
-                'This is job 1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum sequi, est nemo eveniet incidunt, commodi sed optio dolores id eum molestias perferendis exercitationem?',
+                'CRUD application done with React and Typescript in the Front End, and Node with Express and PostgreSQL database in the Back End. ',
 
-            tech: ['React', 'Tailwind'],
-            liveDemo: 'https://example.com/demo1',
-            gitHub: 'https://github.com/',
+            tech: [
+                'React',
+                'Node',
+                'Express',
+                'Typescript',
+                'PostgreSQL',
+                'Tailwind',
+            ],
+            liveDemo: 'https://boyspetshop.vercel.app/',
+            gitHub: 'https://github.com/FedericoSavastano/boyspetshop_backend',
             screenshot:
-                'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/dd/2a/dc/dd2adc90-0c85-2702-ca58-207462b8fe80/ae711ca6-6873-48f7-87c0-3de416cd29de_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00285th_generation_U0029_-_2021-10-13_at_11.44.38.png/643x0w.jpg',
-            flowchart: 'https://example.com/demo1',
+                'https://res.cloudinary.com/dd1gptapb/image/upload/v1741970135/portfolio/boyspetshop_rwjvtx.jpg',
+            // flowchart: 'https://example.com/demo1',
+            docs: 'https://boyspetshop-backend.onrender.com/docs/',
         },
         {
             id: 2,
