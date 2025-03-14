@@ -36,7 +36,7 @@ const texts = {
         'JavaScript Developer I - Salesforce',
         'JavaScript Algorithms and Data Structures - FreeCodeCamp',
         'FrontEnd Development Libraries - FreeCodeCamp',
-        'Just Javascript Course - JustJavascript.com'
+        'Just Javascript Course - JustJavascript.com',
     ],
     downloadCVButtonLabel: 'Download CV',
     workButtonFlowChart: 'FlowChart',
@@ -52,7 +52,7 @@ const texts = {
     navbarTitle: 'Federico Savastano | Web Dev',
     heroTech: 'JavaScript React Next.js Remix Node TypeScript Tailwind Git',
     heroName: 'Federico Savastano',
-    heroTitle: 'Front End Developer',
+    heroTitle: 'Full Stack Developer',
     contactTitle: 'Get in contact',
     contactMessageSentTitle: 'Thank you!',
     contactMessageSentSubTitle: 'I´ll get back to you soon!',
