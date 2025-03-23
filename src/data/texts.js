@@ -28,7 +28,7 @@ const texts = {
         },
     ],
     aboutMeDesc:
-        'I´m a passionate Full Stack developer. Always wanting to learn new things and facing new challenges. My next goals are diving more into Go, AI and Game development.',
+        ' Passionate Full Stack Developer with experience in React, Node.js, and Salesforce development. Skilled in building scalable web applications, mentoring teams, and driving best practices. Adept at working in Agile environments and delivering high-quality solutions. Currently exploring Go, AI, and Game Development to expand my expertise.',
     aboutMeTitle: 'Brief about me',
     studiesTitle: 'Studies & Certifications',
     studiesList: [
@@ -47,7 +47,7 @@ const texts = {
     workButtonGitHub: 'GitHub',
     workButtonFullProject: 'See full project',
     worksTitle: 'Projects',
-    CVLink: 'https://drive.google.com/file/d/1FWexEX8dmKaMdh8XSgT265rMaSLvaPDH/view?usp=sharing',
+    CVLink: 'https://drive.google.com/file/d/1JxHFFpaCzw_AhwingdXG2LXxG-SxCJxp/view?usp=sharing',
     LinkedInLink: 'https://www.linkedin.com/in/federico-savastano/',
     LinkedIn: 'LinkedIn',
     GetCV: 'Get CV',
