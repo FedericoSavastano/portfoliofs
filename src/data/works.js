@@ -1,17 +1,72 @@
 export function works() {
   return [
     {
+      id: 2,
+      title: "Taskly - Task manager",
+      urlName: "taskly",
+      description: "Task managing fullstack application. You can create and ",
+
+      fullDescription: "",
+      tech: [
+        "React",
+        "React router dom",
+        "TypeScript",
+        "Node",
+        "Express",
+        "MongoDB",
+        "Mongoose",
+        "TailwindCSS",
+        "Zod",
+        "",
+      ],
+      liveDemo: "https://taskly-taskmanager.vercel.app/",
+      gitHub: "https://github.com/FedericoSavastano/taskly_backend",
+      screenshot:
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210401151214/What-is-Website.png",
+      //flowchart: "https://example.com/demo1",
+      docs: "https://taskly-backend-8sam.onrender.com/docs",
+    },
+
+    {
+      id: 3,
+      title: "McDowell's Burgers and Café",
+      urlName: "mcdowells",
+      description: "Task managing fullstack application. You can create and ",
+
+      fullDescription: "",
+      tech: [
+        "React",
+        "NextJs",
+        "TypeScript",
+        "Node",
+        "Express",
+        "MongoDB",
+        "Mongoose",
+        "Prisma",
+        "Zod",
+        "Zustand",
+        "SWR",
+      ],
+      liveDemo: "https://taskly-taskmanager.vercel.app/",
+      gitHub: "https://github.com/FedericoSavastano/taskly_backend",
+      screenshot:
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210401151214/What-is-Website.png",
+      //flowchart: "https://example.com/demo1",
+      docs: "https://taskly-backend-8sam.onrender.com/docs",
+    },
+    {
       id: 1,
       title: "Boys Pet Shop",
       urlName: "boyspetshop",
       description:
-        "CRUD application done with React and Typescript in the Front End, and Node with Express and PostgreSQL database in the Back End. ",
+        "CRUD application made with React and Typescript in the Front End, and Node with Express and PostgreSQL database in the Back End. ",
 
+      fullDescription: "",
       tech: [
         "React",
         "Node",
         "Express",
-        "Typescript",
+        "TypeScript",
         "PostgreSQL",
         "Tailwind",
       ],
@@ -23,7 +78,7 @@ export function works() {
       docs: "https://boyspetshop-backend.onrender.com/docs/",
     },
     {
-      id: 2,
+      id: 42,
       title: "Job 42",
       urlName: "job42",
       description:
