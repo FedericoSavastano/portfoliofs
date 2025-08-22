@@ -7,22 +7,28 @@ export function works() {
       description:
         "Taskly is a fullstack task management app built with the MERN stack. It allows users to create projects, assign roles, manage tasks with status updates, and add notes. Developed with React + TypeScript on the frontend and Node.js, Express, and MongoDB (Mongoose) with TypeScript on the backend.",
 
-      fullDescription: `Taskly is a fullstack project management application inspired by tools like Trello, designed to streamline team collaboration and task organization.
+      fullDescription: `
+      <p>Taskly is a fullstack project management application inspired by tools like Trello, designed to streamline team collaboration and task organization.
 
-The platform provides user authentication and account creation, ensuring secure access to projects. Once logged in, users can:
+The platform provides user authentication and account creation, ensuring secure access to projects. </p>
+<p>Once logged in, users can: </p>
 
-Create and manage projects
+<ul>
+<li>Create and manage projects</li>
 
-Assign roles and tasks to team members
+<li>Assign roles and tasks to team members</li>
 
-Track task progress by updating their status
+<li>Track task progress by updating their status</li>
 
-Add notes and comments directly to tasks for better context and communication
+<li>Add notes and comments directly to tasks for better context and communication</li>
 
-From a technical perspective, the frontend was built with React and TypeScript, delivering a responsive and type-safe user experience. The backend was developed using Node.js, Express, and MongoDB (Mongoose) with TypeScript, enabling scalable data management and a robust API layer.
+</ul>
 
-This project demonstrates not only technical proficiency in the MERN stack with TypeScript but also the ability to design and implement real-world features for collaborative productivity tools.
-Feel free to create your own user, or if you want to quickly look at the app you can enter as federicosavastano.dev@gmail.com , password: tasklytester
+<p>fFrom a technical perspective, the frontend was built with React and TypeScript, delivering a responsive and type-safe user experience. The backend was developed using Node.js, Express, and MongoDB (Mongoose) with TypeScript, enabling scalable data management and a robust API layer.
+
+This project demonstrates not only technical proficiency in the MERN stack with TypeScript but also the ability to design and implement real-world features for collaborative productivity tools.</p>
+<p>fFeel free to create your own user, or if you want to quickly look at the app you can enter as</p>
+ <p>federicosavastano.dev@gmail.com , password: tasklytester</p>
 
 `,
       tech: [

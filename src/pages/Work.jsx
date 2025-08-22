@@ -115,7 +115,7 @@ const Buttons = styled.div`
   align-items: start;
 `;
 
-const Desc = styled.p`
+const Desc = styled.div`
   margin-bottom: 2rem;
   text-shadow: 0.8px 0.8px 2px black;
 `;
