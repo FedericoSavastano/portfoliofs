@@ -124,6 +124,22 @@ Feel free to create your own pet products!
       // flowchart: 'https://example.com/demo1',
       docs: "https://boyspetshop-backend.onrender.com/docs/",
     },
+    {
+      id: 4,
+      title: "Smalllists",
+      urlName: "smalllists",
+      description:
+        "Small lists is a React application. It functions as a shopping list - or anything list -, that you can add items inside a category, and mark them as done, or delete them. You can also share via your preferred way to any friend of yours to check the list",
+      fullDescription:
+        "Small lists is a React application. It functions as a shopping list - or anything list -, that you can add items inside a category, and mark them as done, or delete them. You can also share via your preferred way to any friend of yours to check the list. The sharing button creates a url with your complete list and when you share it the application quickly fetches all data from the url to recreate the list on a different device. When this process is done, the url switches back to the standard way.",
+
+      tech: ["React", "React router dom", "Bootstrap", "Axios"],
+      liveDemo: "https://smalllists.vercel.app/",
+      gitHub: "https://github.com/FedericoSavastano/smalllists",
+      screenshot:
+        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210401151214/What-is-Website.png",
+      // flowchart: 'https://example.com/demo1',
+    },
     // {
     //   id: 42,
     //   title: "Job 42",
@@ -150,19 +166,6 @@ Feel free to create your own pet products!
     //   screenshot:
     //     "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210401151214/What-is-Website.png",
     //   flowchart: "https://example.com/demo1",
-    // },
-    // {
-    //   id: 4,
-    //   title: "Job4",
-    //   urlName: "job4",
-    //   description:
-    //     "This is job 4 consectetur adipisicing elit. Illum sequi, est nemo eveniet incidunt, commodi sed optio dolores id eum molestias perferendis exercitation",
-    //   tech: ["JavaScript", "CSS", "HTML", "JavaScript1", "CSS1", "HTML1"],
-    //   liveDemo: "https://example.com/demo1",
-    //   gitHub: "https://github.com/",
-    //   screenshot:
-    //     "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210401151214/What-is-Website.png",
-    //   // flowchart: 'https://example.com/demo1',
     // },
   ];
 }
