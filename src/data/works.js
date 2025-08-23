@@ -38,7 +38,7 @@ Feel free to create your own user or if you want to quickly check the app sign i
       liveDemo: "https://taskly-taskmanager.vercel.app/",
       gitHub: "https://github.com/FedericoSavastano/taskly_backend",
       screenshot:
-        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210401151214/What-is-Website.png",
+        "https://res.cloudinary.com/dd1gptapb/image/upload/v1755983020/portfolio/taskly_gif_gwzk3j.gif",
       //flowchart: "https://example.com/demo1",
       docs: "https://taskly-backend-8sam.onrender.com/docs",
     },
@@ -84,7 +84,7 @@ Feel free to create your own orders!
       orders: "https://mcdowells-nextjs-shop.vercel.app/orders",
       gitHub: "https://github.com/FedericoSavastano/mcdowells_nextjs_shop",
       screenshot:
-        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210401151214/What-is-Website.png",
+        "https://res.cloudinary.com/dd1gptapb/image/upload/v1755970751/portfolio/mcdowells_gif_iypwss.gif",
       //flowchart: "https://example.com/demo1",
       // docs: "https://taskly-backend-8sam.onrender.com/docs",
     },

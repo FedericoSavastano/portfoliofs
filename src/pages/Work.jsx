@@ -42,10 +42,8 @@ const Wrapper = styled.div`
 const Img = styled.img`
   width: 80%;
   object-fit: cover;
-
-  @media only screen and (max-width: 768px) {
-    height: 40vh;
-  }
+  height: fit-content;
+  align-self: center;
 `;
 
 const ButtonBack = styled.button`
