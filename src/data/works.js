@@ -137,7 +137,7 @@ Feel free to create your own pet products!
       liveDemo: "https://smalllists.vercel.app/",
       gitHub: "https://github.com/FedericoSavastano/smalllists",
       screenshot:
-        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210401151214/What-is-Website.png",
+        "https://res.cloudinary.com/dd1gptapb/image/upload/v1755996120/portfolio/smalllists_gif_stcywm.gif",
       // flowchart: 'https://example.com/demo1',
     },
     // {
