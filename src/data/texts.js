@@ -49,7 +49,7 @@ const texts = {
   workButtonFullProject: "See full project",
   worksTitle: "Projects",
   CVLink:
-    "https://drive.google.com/file/d/1JxHFFpaCzw_AhwingdXG2LXxG-SxCJxp/view?usp=sharing",
+    "https://drive.google.com/file/d/1dUmEaY3ns-OkKWAliekeC-S0c-WjDQLM/view?usp=sharing",
   LinkedInLink: "https://www.linkedin.com/in/federico-savastano/",
   LinkedIn: "LinkedIn",
   GetCV: "Get CV",
