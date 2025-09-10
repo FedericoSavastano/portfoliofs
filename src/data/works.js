@@ -62,7 +62,7 @@ McDowell’s is a fullstack application developed with Next.js and TypeScript, d
 
 * Once an order is completed, it is displayed at /orders, serving as the pickup screen where customers can confirm their orders are ready.
 
-The app is powered by MongoDB with Prisma for database management, and uses SWR, Zod, and Zustand for state management, data fetching, and schema validation. Together, these tools ensure a responsive, scalable, and reliable kiosk experience tailored for the food-service industry.
+The app is powered by MongoDB with Prisma for database management, and uses SWR, Zod, and Zustand for state management, data fetching, and schema validation also Stripe platform for payment. Together, these tools ensure a responsive, scalable, and reliable kiosk experience tailored for the food-service industry.
 
 Feel free to create your own orders!
 `,
@@ -78,13 +78,14 @@ Feel free to create your own orders!
         "Zod",
         "Zustand",
         "SWR",
+        "Stripe",
       ],
       liveDemo: "https://mcdowells-nextjs-shop.vercel.app/",
       adminPanel: "https://mcdowells-nextjs-shop.vercel.app/admin/orders",
       orders: "https://mcdowells-nextjs-shop.vercel.app/orders",
       gitHub: "https://github.com/FedericoSavastano/mcdowells_nextjs_shop",
       screenshot:
-        "https://res.cloudinary.com/dd1gptapb/image/upload/v1755970751/portfolio/mcdowells_gif_iypwss.gif",
+        "https://res.cloudinary.com/dd1gptapb/image/upload/v1757542072/portfolio/mcdowells_gifV2_b7iwah.gif",
       //flowchart: "https://example.com/demo1",
       // docs: "https://taskly-backend-8sam.onrender.com/docs",
     },
