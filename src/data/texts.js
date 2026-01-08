@@ -4,7 +4,7 @@ const texts = {
     {
       job: "SalesForce Full Stack Developer - CloudGaia",
       date: "2020-2025",
-      desc: "React, LWC, Node, Apex, Salesforce, HTML, CSS, JavaScript",
+      desc: "React, LWC, Node, Apex, Salesforce, HTML, CSS, JavaScript, TypeScript",
     },
     {
       job: "Front End Developer - BaoData",
@@ -71,4 +71,5 @@ const texts = {
 };
 
 export default texts;
+
 
