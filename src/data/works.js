@@ -1,6 +1,59 @@
 export function works() {
   return [
     {
+      id: 333,
+      title: "UI Component Generator",
+      urlName: "ui-component-generator",
+      description:
+        "UI Component Generator is a fullstack application that uses generative AI to create React components with TypeScript and Tailwind CSS from natural language descriptions. Components are rendered in real time with an interactive preview and can be edited through textual instructions.",
+
+      fullDescription: `
+Fullstack application that uses generative AI to create React components with TypeScript and Tailwind CSS from natural language descriptions. Components are rendered in real time with an interactive preview and can be edited through textual instructions.
+
+Stack: Next.js 15 • React • TypeScript • Tailwind CSS • Groq AI (Llama 3.3) • Supabase • Monaco Editor
+
+Key Features:
+
+Component generation through natural language prompts
+
+Live preview with isolated iframe and independent Tailwind CDN
+
+Iterative editing via AI instructions ("change the color to green")
+
+Automatic variant system (sizes, styles, colors)
+
+Integrated code editor with syntax highlighting
+
+PostgreSQL persistence with full version history
+
+Technical Complexity:
+
+Sandbox architecture using iframes to isolate Tailwind from the main site
+
+Optimized prompt engineering to generate valid TypeScript code
+
+In-browser React/JSX transpilation using Babel Standalone
+
+Complex state management for component editing and regeneration
+`,
+
+      tech: [
+        "React",
+        "NextJs",
+        "TypeScript",
+        "Tailwind",
+        "Groq AI",
+        "Supabase",
+        "Monaco Editor",
+      ],
+      liveDemo: "https://ui-component-generator-federicosavastano.vercel.app/",
+      gitHub: "https://github.com/FedericoSavastano/ui-component-generator",
+      screenshot:
+        "https://res.cloudinary.com/dd1gptapb/image/upload/v1771884088/portfolio/202602231854-_1__htho5i.gif",
+      //flowchart: "https://example.com/demo1",
+      // docs: "https://taskly-backend-8sam.onrender.com/docs",
+    },
+    {
       id: 2,
       title: "Taskly - Task manager",
       urlName: "taskly",
