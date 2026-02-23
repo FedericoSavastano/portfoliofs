@@ -53,6 +53,64 @@ Complex state management for component editing and regeneration
       //flowchart: "https://example.com/demo1",
       // docs: "https://taskly-backend-8sam.onrender.com/docs",
     },
+
+    {
+      id: 77772,
+      title: "Code Review Assistant",
+      urlName: "code-review-assistant",
+      description:
+        "AI-powered code analysis platform that identifies bugs, security vulnerabilities, and code smells across more than 10 programming languages.",
+
+      fullDescription: `
+An AI-powered code analysis platform that identifies bugs, security vulnerabilities, and code smells across more than 10 programming languages. It provides corrected code suggestions with detailed explanations and side-by-side visual comparison.
+
+Stack: Next.js 15 • React • TypeScript • Tailwind CSS • Groq AI (Llama 3.3) • Supabase • Monaco Editor
+
+Key Features:
+
+Static code analysis for JavaScript, TypeScript, Python, Java, Go, Rust, C++, C#, PHP, and Ruby
+
+Automatic detection of bugs, vulnerabilities, and bad practices
+
+Severity classification system (critical, warning, suggestion)
+
+Inline and modal visual comparison with syntax highlighting
+
+Corrected code suggestions with contextual explanations
+
+Shareable links for collaborative reviews
+
+Persistent analysis history with search functionality
+
+Technical Complexity:
+
+Prompt engineering for structured analysis with reliable JSON outputs
+
+Visual diff system using react-diff-viewer for code comparisons
+
+Contextual code extraction (3 lines before/after each issue)
+
+Secure sharing architecture with unique tokens and Supabase RLS policies
+
+Robust error handling with fallbacks for inconsistent LLM responses
+`,
+
+      tech: [
+        "React",
+        "NextJs",
+        "TypeScript",
+        "Groq AI",
+        "Supabase",
+        "Monaco Editor",
+        "TailwindCSS",
+      ],
+      liveDemo: "https://code-review-assistant-federicosavastano.vercel.app/",
+      gitHub: "https://github.com/FedericoSavastano/code-review-assistant",
+      screenshot:
+        "https://res.cloudinary.com/dd1gptapb/image/upload/v1771887102/portfolio/202602231854-_2__e1gwqt.gif",
+      //flowchart: "https://example.com/demo1",
+      //docs: "https://taskly-backend-8sam.onrender.com/docs",
+    },
     {
       id: 2,
       title: "Taskly - Task manager",
