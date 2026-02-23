@@ -54,7 +54,7 @@ const texts = {
   LinkedIn: "LinkedIn",
   GetCV: "Get CV",
   navbarTitle: "Federico Savastano | Web Dev",
-  heroTech: "React Next.js Node Go JavaScript TypeScript Git",
+  heroTech: "React Next.js Node Go AI JavaScript TypeScript Git",
   heroName: "Federico Savastano",
   heroTitle: "Full Stack Developer",
   contactTitle: "Get in contact",
@@ -71,5 +71,3 @@ const texts = {
 };
 
 export default texts;
-
-
